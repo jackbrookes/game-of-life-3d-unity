@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Allows movement and rotation of this GameObject with key and mouse inputs.
+/// </summary>
 public class FirstPersonMovementController : MonoBehaviour
 {
 	private const int RIGHT_MOUSE_BUTTON = 1; 

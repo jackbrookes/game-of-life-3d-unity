@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Game of life implementation that creates cell gameobjects, and enables/disables them based on
+/// Game of life rules extended to 3D.
+/// </summary>
 public class GameOfLife : MonoBehaviour
 {
 	[SerializeField] private ParameterInputUI _parameterInputUI;

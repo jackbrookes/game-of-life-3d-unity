@@ -3,6 +3,9 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Manages the UI that allows new parameters to be entered.
+/// </summary>
 public class ParameterInputUI : MonoBehaviour
 {
 	public event Action<int, int, int, float> OnBoardParametersChanged;
