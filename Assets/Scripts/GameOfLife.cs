@@ -105,7 +105,8 @@ public class GameOfLife : MonoBehaviour
     {
         int aliveNeighbours = GetAliveNeighbours(x, y, z);
 
-        if (_board[x, y, z])
+        bool alive = _board[x, y, z];
+		if (alive)
         {
             if (aliveNeighbours < _underpopulationThreshold || aliveNeighbours > _overpopulationThreshold)
             {
