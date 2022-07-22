@@ -25,7 +25,7 @@ public class FirstPersonMovementController : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
 
-            // only allow looking whilst left mouse button is held
+            // only allow looking whilst mouse button is held
             UpdateLook();
         }
         else
