@@ -46,6 +46,7 @@ public class ParameterInputUI : MonoBehaviour
     {
         _timeStepInput.onEndEdit.RemoveListener(UpdateTimeStep);
         _underpopulationThresholdInput.onEndEdit.RemoveListener(UpdateUnderpopulationThreshold);
+        _reproductionCriterionInput.onEndEdit.RemoveListener(UpdateReproductionCriterion);
         _overpopulationThresholdInput.onEndEdit.RemoveListener(UpdateOverpopulationThreshold);
         _applyBoardParametersButton.onClick.RemoveListener(UpdateBoardParameters);
     }
